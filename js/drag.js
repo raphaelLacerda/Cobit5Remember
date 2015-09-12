@@ -1,3 +1,6 @@
+var mapaDeZonaPorProcessos = [];
+
+
 function dropzone() {
 
 
@@ -31,31 +34,79 @@ function dropzone() {
       event.target.classList.remove('drop-target');
       event.relatedTarget.classList.remove('can-drop');
       //event.relatedTarget.textContent = 'Dragged out';
-      if(event.target.agrupados){
-        event.target.textContent = 'Princípios: ' + event.target.agrupados.length;
+      var id = event.relatedTarget.id;
+      var nomeDaZona = event.target.id;
+
+
+      var zona = _.find(mapaDeZonaPorProcessos, function (z) {
+        return z.zona === nomeDaZona;
+      });
+
+      if (zona && zona.processos) {
+
+        console.log('tamanho do array: ' + zona.processos.length);
+
+        zona.processos = _.reject(zona.processos, function (p) {
+          //aqui a comparação é com ==
+          //eu quero que ele faça o casting
+          return p.id == id;
+        });
+
+        console.log('novo tamanho do array: ' + zona.processos.length);
+        event.target.textContent = nomeDaZona + ' - ' + zona.processos.length;
+
       }
+
+
     },
+
     ondrop: function (event) {
-      //event.relatedTarget.textContent = 'Dropped';
+
 
       var id = event.relatedTarget.id;
 
-      if (!event.target.agrupados) {
-        event.target.agrupados = [];
-        event.target.agrupados.push(id);
-        
+      var nomeDaZona = event.target.id;
+
+      var processoDropado = _.find(processos, function (p) {
+        //aqui a comparação é com ==
+        //eu quero que ele faça o casting
+        return p.id == id;
+      });
+
+      //var jsonString = $('#' + id).attr('json');
+      //var processo = eval("(" + jsonString + ')');
+
+      var zona = _.find(mapaDeZonaPorProcessos, function (z) {
+        return z.zona === nomeDaZona;
+      });
+
+      if (!zona) {
+
+        console.log('zona iniciada');
+
+        mapaDeZonaPorProcessos.push({
+
+          zona: nomeDaZona,
+          processos: [processoDropado]
+
+        });
+
+        event.target.textContent = nomeDaZona + " - " + 1;
       } else {
-        if ($.inArray(id, event.target.agrupados) < 0) {
-          event.target.agrupados.push(id);
 
-          console.log('grupo: ' + $('#' + id).attr('grupo'));
-          console.log('text: ' + event.relatedTarget.textContent);
+        var processoEncontrado = _.find(zona.processos, function (p) {
+          return p.id === processoDropado.id
+        });
+
+        if (!processoEncontrado) {
+          zona.processos.push(processoDropado);
+          event.target.agrupados++;
         } else {
-          console.warn('elemento já adicionado');
+          console.log('elemento já existe na zona: ' + JSON.stringify(processoDropado));
         }
-
+        event.target.textContent = nomeDaZona + " - " + zona.processos.length;
       }
-      event.target.textContent = 'Princípios: ' + event.target.agrupados.length;
+
     },
     ondropdeactivate: function (event) {
       // remove active dropzone feedback

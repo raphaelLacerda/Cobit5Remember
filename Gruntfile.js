@@ -4,8 +4,14 @@ module.exports = function(grunt) {
       pkg: grunt.file.readJSON('package.json'),
       uglify: {
       build: {
-        src: 'js/cobit5.js',
-        dest: 'js/cobit5.min.js'
+        src: 'js/motor.js',
+        dest: 'js/motor.min.js'
+      },build: {
+        src: 'js/drag.js',
+        dest: 'js/drag.min.js'
+      },,build: {
+        src: 'js/processos-cobit5.js',
+        dest: 'js/processos-cobit5.min.js'
       },
        
       bowerRequirejs: {

@@ -1,3 +1,39 @@
+/* error messages*/
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+/*interact*/
+
 
 #inner-dropzone {
   height: 80px;
@@ -11,7 +47,7 @@
   padding: 10px;
   width: 80%;
   transition: background-color 0.3s;
-  height: 140px;
+  height: 800px;
 }
 
 .drop-active {
@@ -27,8 +63,8 @@
 .drag-drop {
   display: inline-block;
   min-width: 40px;
-  padding: 2em 0.5em;
-
+  padding: 1em 0.5em;
+  height: 1px;
   color: #fff;
   background-color: #29e;
   border: solid 2px #fff;

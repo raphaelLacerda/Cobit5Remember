@@ -1,0 +1,10 @@
+{
+    "name": "Cobit5Remember",
+    "dependencies": {
+        "jquery": "~1.10.2",
+        "modernizr": "~2.6.2",
+        "jquery-ui": "~1.11.4",
+        "angular": "~1.4.5",
+        "interact.js": "~1.2.4"
+    }
+}

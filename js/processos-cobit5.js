@@ -126,7 +126,7 @@ var processos = [
         },
     {
         id: 26,
-        nome: 'assegurar necessidades dos stakeholders para os objetivos empresariais serem alcançados',
+        nome: 'assegurar necessidades dos stakeholders',
         grupo: 'Governança'
         },
     {
@@ -149,4 +149,66 @@ var processos = [
         nome: 'Monitorar as atividades',
         grupo: 'Gestão'
         },
+    {
+        id: 31,
+        nome: 'Garantir o framework de Governança e sua manutenção',
+        grupo: 'Avaliar-Direcionar-Monitorar'
+        },
+    {
+        id: 32,
+        nome: 'Garantir os benefícios de entrega',
+        grupo: 'Avaliar-Direcionar-Monitorar'
+        },
+    {
+        id: 33,
+        nome: 'Garantir a otimização dos riscos e recursos',
+        grupo: 'Avaliar-Direcionar-Monitorar'
+        },
+    {
+        id: 34,
+        nome: 'Garantir a otimização dos recursos e custos',
+        grupo: 'Avaliar-Direcionar-Monitorar'
+        },
+    {
+        id: 35,
+        nome: 'Garantir transparência aos stakeholders',
+        grupo: 'Avaliar-Direcionar-Monitorar'
+        },
+    {
+        id: 36,
+        nome: 'Gerenciar o framework de gerenciamento de TI',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 37,
+        nome: 'Gerenciar estratégia',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 38,
+        nome: 'Gerenciar Inovação',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 39,
+        nome: 'Gerenciar Portfólio',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 40,
+        nome: 'Gerenciar orçamento e custos',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 41,
+        nome: 'Gerenciar Relacionamentos',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 42,
+        nome: 'Gerenciar acordos de serviço',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 43,
+        nome: 'Gerenciar Riscos',
+        grupo: 'Alinhar-Planejar-Organizar'
+        },{
+        id: 44,
+        nome: 'Gerenciar Segurança',
+        grupo: 'Alinhar-Planejar-Organizar'
+        }
     ];

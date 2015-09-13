@@ -40,7 +40,6 @@ function conferir() {
             if (p.grupo !== z.zona) {
 
                 $('#' + p.id).append('<div class="isa_error"><br/>Deveria estar no grupo: ' + p.grupo + '</div>');
-                $('#' + p.id).addClass('isa_error');
                 quantidadeDeErros++;
             }
 
@@ -49,8 +48,18 @@ function conferir() {
     });
     
     
-    $('#resultado').html('quantidade de processos: '+ processos.length + ' - quantidade de erros: '+ quantidadeDeErros)
     
+  
+  $( "#resultado" ).dialog({
+      modal: true,
+      buttons: {
+        Ok: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+    
+  $('#resultado').html('quantidade de processos: '+ processos.length + ' - quantidade de erros: '+ quantidadeDeErros);
     
     
 

@@ -36,6 +36,9 @@ function dropzone() {
       event.relatedTarget.classList.remove('error');
       //event.relatedTarget.textContent = 'Dragged out';
       var id = event.relatedTarget.id;
+      
+      $('#' +id).removeAttr('title');
+      
       var nomeDaZona = event.target.id;
 
 

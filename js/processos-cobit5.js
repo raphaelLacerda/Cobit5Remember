@@ -178,37 +178,135 @@ var processos = [
         id: 36,
         nome: 'Gerenciar o framework de gerenciamento de TI',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 37,
         nome: 'Gerenciar estratégia',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 38,
         nome: 'Gerenciar Inovação',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 39,
         nome: 'Gerenciar Portfólio',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 40,
         nome: 'Gerenciar orçamento e custos',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 41,
         nome: 'Gerenciar Relacionamentos',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 42,
         nome: 'Gerenciar acordos de serviço',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, {
         id: 43,
         nome: 'Gerenciar Riscos',
         grupo: 'Alinhar-Planejar-Organizar'
-        },{
+        }, 
+    {
         id: 44,
         nome: 'Gerenciar Segurança',
         grupo: 'Alinhar-Planejar-Organizar'
+        }, 
+    {
+        id: 45,
+        nome: 'Gerenciar programas e projetos',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 46,
+        nome: 'Gerenciar definição de requisitos',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 47,
+        nome: 'Gerenciar soluções e construções',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 48,
+        nome: 'Gerenciar a Disponibilidade e Capacidade ',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 49,
+        nome: 'Gerenciar a implementação de Mudança Organizacional',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 50,
+        nome: 'Gerenciar Mudanças',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 51,
+        nome: 'Gerenciar Aceite e Transição de Mudança',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 52,
+        nome: 'Gerenciar o Conhecimento ',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 53,
+        nome: 'Gerenciar os Ativos',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 54,
+        nome: 'Gerenciar a Configuração',
+        grupo: 'Construir-Adquirir-Implementar'
+        }, 
+    {
+        id: 55,
+        nome: 'Gerenciar as Operações',
+        grupo: 'Entregar-Servir-Suportar'
+        }, 
+    {
+        id: 56,
+        nome: 'Gerenciar Requisições de Serviço e Incidentes',
+        grupo: 'Entregar-Servir-Suportar'
+        }, 
+    {
+        id: 57,
+        nome: 'Gerenciar Problemas',
+        grupo: 'Entregar-Servir-Suportar'
+        }, 
+    {
+        id: 58,
+        nome: 'Gerenciar a Continuidade',
+        grupo: 'Entregar-Servir-Suportar'
+        }, 
+    {
+        id: 59,
+        nome: 'Gerenciar os Serviços de Segurança',
+        grupo: 'Entregar-Servir-Suportar'
+        }, 
+    {
+        id: 60,
+        nome: 'Gerenciar os Controles de Processos de Negocio',
+        grupo: 'Entregar-Servir-Suportar'
+        }, 
+    {
+        id: 61,
+        nome: 'Monitorar, Avaliar e Medir o Desempenho e Conformidade',
+        grupo: 'Monitorar-Avaliar-Medir'
+        }, 
+    {
+        id: 62,
+        nome: 'Controle Interno',
+        grupo: 'Monitorar-Avaliar-Medir'
+        }, 
+    {
+        id: 63,
+        nome: 'Requisitos Externos',
+        grupo: 'Monitorar-Avaliar-Medir'
         }
     ];
+
+

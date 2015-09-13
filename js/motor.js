@@ -8,14 +8,14 @@ function inicio() {
     var n = processos.length;
     var tempArr = [];
     var processosClonados = processos.slice(0);
-    
+
     for (var i = 0; i < n - 1; i++) {
         tempArr.push(processosClonados.splice(Math.floor(Math.random() * processosClonados.length), 1)[0]);
     }
     tempArr.push(processosClonados[0]);
-    
-    
-     $.each(tempArr, function (index, p) {
+
+
+    $.each(tempArr, function (index, p) {
 
         $('#main').append("<div id=" + p.id + " class = 'draggable drag-drop' >" + p.nome + " </div>");
         $('#main').append('<br/>');
@@ -30,7 +30,7 @@ function inicio() {
 
 
 function conferir() {
-    
+
     var quantidadeDeErros = 0;
 
     _.each(mapaDeZonaPorProcessos, function (z, i) {
@@ -46,21 +46,21 @@ function conferir() {
         });
 
     });
-    
-    
-    
-  
-  $( "#resultado" ).dialog({
-      modal: true,
-      buttons: {
-        Ok: function() {
-          $( this ).dialog( "close" );
+
+
+
+
+    $("#resultado").dialog({
+        modal: true,
+        buttons: {
+            Ok: function () {
+                $(this).dialog("close");
+            }
         }
-      }
     });
-    
-  $('#resultado').html('quantidade de processos: '+ processos.length + ' - quantidade de erros: '+ quantidadeDeErros);
-    
-    
+
+    $('#resultado').html('quantidade de processos: ' + processos.length + ' - quantidade de erros: ' + quantidadeDeErros);
+
+
 
 }

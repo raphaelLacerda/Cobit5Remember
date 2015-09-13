@@ -12,7 +12,7 @@ function dropzone() {
     // only accept elements matching this CSS selector
     accept: '.draggable',
     // Require a 75% element overlap for a drop to be possible
-    overlap: 0.75,
+    //overlap: 0.25,
 
     // listen for drop related events:
 

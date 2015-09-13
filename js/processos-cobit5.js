@@ -79,4 +79,74 @@ var processos = [
         nome: 'Boas Práticas',
         grupo: 'Dimensoes'
         },
+    {
+        id: 17,
+        nome: 'Stakeholder drivers',
+        grupo: 'Objetivos'
+        },
+    {
+        id: 18,
+        nome: 'Stakeholder needs',
+        grupo: 'Objetivos'
+        },
+    {
+        id: 19,
+        nome: 'Objetivos genéricos empresariais / corporativos',
+        grupo: 'Objetivos'
+        },
+    {
+        id: 20,
+        nome: 'Objetivos relacionados a TI',
+        grupo: 'Objetivos'
+        },
+    {
+        id: 21,
+        nome: 'Objetivo dos facilitadores',
+        grupo: 'Objetivos'
+        },
+    {
+        id: 22,
+        nome: 'Avaliar',
+        grupo: 'Governança'
+        },
+    {
+        id: 23,
+        nome: 'Dirigir',
+        grupo: 'Governança'
+        },
+    {
+        id: 24,
+        nome: 'Monitorar a decisões',
+        grupo: 'Governança'
+        },
+    {
+        id: 25,
+        nome: 'Responsabilidade é da alta administração',
+        grupo: 'Governança'
+        },
+    {
+        id: 26,
+        nome: 'assegurar necessidades dos stakeholders para os objetivos empresariais serem alcançados',
+        grupo: 'Governança'
+        },
+    {
+        id: 27,
+        nome: 'Planejar',
+        grupo: 'Gestão'
+        },
+    {
+        id: 28,
+        nome: 'Construir',
+        grupo: 'Gestão'
+        },
+    {
+        id: 29,
+        nome: 'Executar',
+        grupo: 'Gestão'
+        },
+    {
+        id: 30,
+        nome: 'Monitorar as atividades',
+        grupo: 'Gestão'
+        },
     ];

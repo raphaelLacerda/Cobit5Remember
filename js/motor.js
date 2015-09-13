@@ -32,11 +32,17 @@ function inicio() {
 function conferir() {
 
     var quantidadeDeErros = 0;
+    
+    _.each(processos, function (p, i){
+       
+         $('#' + p.id).children('.isa_error').remove();
+        
+    });
 
     _.each(mapaDeZonaPorProcessos, function (z, i) {
 
         _.each(z.processos, function (p, j) {
-
+            
             if (p.grupo !== z.zona) {
 
                 $('#' + p.id).append('<div class="isa_error"><br/>Deveria estar no grupo: ' + p.grupo + '</div>');

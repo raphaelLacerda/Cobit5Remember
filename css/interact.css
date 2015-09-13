@@ -64,7 +64,7 @@ padding:12px;
   display: inline-block;
   min-width: 40px;
   padding: 1em 0.5em;
-  height: 1px;
+  height: 100%;
   color: #fff;
   background-color: #29e;
   border: solid 2px #fff;

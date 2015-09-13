@@ -35,7 +35,7 @@ function conferir() {
     
     _.each(processos, function (p, i){
        
-         $('#' + p.id).children('.isa_error').remove();
+         $('#' + p.id).removeAttr('title');
         
     });
 

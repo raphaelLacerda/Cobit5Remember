@@ -80,3 +80,10 @@ padding:12px;
   color: #000;
   background-color: #4e4;
 }
+
+
+.drag-drop.error {
+  color: #D8000C;
+  background-color: #FEEFB3;
+}
+

@@ -23,6 +23,7 @@ function inicio() {
 
     draggable();
     dropzone();
+    $( document ).tooltip();
 
 
 }
@@ -44,8 +45,10 @@ function conferir() {
             
             if (p.grupo !== z.zona) {
 
-                $('#' + p.id).append('<div class="isa_error"><br/>Deveria estar no grupo: ' + p.grupo + '</div>');
+                $('#' + p.id).attr('title', 'Deveria estar no grupo: '+p.grupo);
                 quantidadeDeErros++;
+                $('#' + p.id).removeClass('can-drop');
+                $('#' + p.id).addClass('error');
             }
 
         });

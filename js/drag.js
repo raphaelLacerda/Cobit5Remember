@@ -33,6 +33,7 @@ function dropzone() {
       // remove the drop feedback style
       event.target.classList.remove('drop-target');
       event.relatedTarget.classList.remove('can-drop');
+      event.relatedTarget.classList.remove('error');
       //event.relatedTarget.textContent = 'Dragged out';
       var id = event.relatedTarget.id;
       var nomeDaZona = event.target.id;

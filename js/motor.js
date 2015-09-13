@@ -18,7 +18,6 @@ function inicio() {
     $.each(tempArr, function (index, p) {
 
         $('#main').append("<div id=" + p.id + " class = 'draggable drag-drop' >" + p.nome + " </div>");
-        $('#main').append('<br/>');
         //$('#'+p.id).attr('json', JSON.stringify(p));
     });
 

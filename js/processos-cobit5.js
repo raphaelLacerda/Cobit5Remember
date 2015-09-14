@@ -178,11 +178,17 @@ var processos = [
         id: 36,
         nome: 'Gerenciar o framework de gerenciamento de TI',
         grupo: 'Alinhar-Planejar-Organizar'
-        }, {
+        }, 
+    {
         id: 37,
         nome: 'Gerenciar estratégia',
         grupo: 'Alinhar-Planejar-Organizar'
-        }, {
+        },{
+        id: 381,
+        nome: 'Gerenciar Arquitetura Empresarial',
+        grupo: 'Alinhar-Planejar-Organizar'
+        }, 
+    {
         id: 38,
         nome: 'Gerenciar Inovação',
         grupo: 'Alinhar-Planejar-Organizar'
@@ -198,11 +204,21 @@ var processos = [
         id: 41,
         nome: 'Gerenciar Relacionamentos',
         grupo: 'Alinhar-Planejar-Organizar'
-        }, {
+        }, 
+    {
         id: 42,
         nome: 'Gerenciar acordos de serviço',
         grupo: 'Alinhar-Planejar-Organizar'
         }, {
+        id: 431,
+        nome: 'Gerenciar Fornecedores',
+        grupo: 'Alinhar-Planejar-Organizar'
+        }, {
+        id: 441,
+        nome: 'Gerenciar Qualidade',
+        grupo: 'Alinhar-Planejar-Organizar'
+        }, 
+    {
         id: 43,
         nome: 'Gerenciar Riscos',
         grupo: 'Alinhar-Planejar-Organizar'

@@ -201,6 +201,11 @@ var processos = [
         nome: 'Gerenciar orçamento e custos',
         grupo: 'Alinhar-Planejar-Organizar'
         }, {
+        id: 411,
+        nome: 'Gerenciar Recursos Humanos',
+        grupo: 'Alinhar-Planejar-Organizar'
+        }, 
+    {
         id: 41,
         nome: 'Gerenciar Relacionamentos',
         grupo: 'Alinhar-Planejar-Organizar'

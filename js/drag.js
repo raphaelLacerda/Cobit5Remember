@@ -41,18 +41,20 @@ function dropzone() {
       
       var nomeDaZona = event.target.id;
 
-
       var zona = _.find(mapaDeZonaPorProcessos, function (z) {
         return z.zona === nomeDaZona;
       });
 
       if (zona && zona.processos) {
 
+          
         console.log('tamanho do array: ' + zona.processos.length);
 
         zona.processos = _.reject(zona.processos, function (p) {
-          //aqui a comparação é com ==
-          //eu quero que ele faça o casting
+          
+            //retirar o processo da zona
+            
+            
           return p.id == id;
         });
 
@@ -67,6 +69,7 @@ function dropzone() {
     ondrop: function (event) {
 
 
+        debugger;
       var id = event.relatedTarget.id;
 
       var nomeDaZona = event.target.id;

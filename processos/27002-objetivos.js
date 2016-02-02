@@ -36,10 +36,6 @@ var processos = [
         grupo: '8-GESTÃO-DE-ATIVOS'
     },
     {
-        nome: 'Responsabilidade pelos ativos',
-        grupo: '8-GESTÃO-DE-ATIVOS'
-    },
-    {
         nome: 'Requisitos de Negócio para controle de acesso',
         grupo: '9-CONTROLE-DE-ACESSO'
     },
@@ -105,10 +101,6 @@ var processos = [
     },
     {
         nome: 'Segurança em processos de desenvolvimento e de suporte',
-        grupo: '14-AQUISIÇÃO-DESENVOLVIMENTO-MANUTENÇÃO-SISTEMAS'
-    },
-    {
-        nome: 'Requisitos de segurança de sistemas de informação',
         grupo: '14-AQUISIÇÃO-DESENVOLVIMENTO-MANUTENÇÃO-SISTEMAS'
     },
     {

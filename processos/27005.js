@@ -157,7 +157,7 @@ var grupos = [
         nome: 'DEFINIÇÃO-CONTEXTO'    
     },
     {
-        nome: 'AVALIAÇÃO-DE-RISCOS-GERAL'    
+        nome: 'AVALIAÇÃO-DE-RISCOS-PROCESSO-GERAL'    
     },
     {
         nome: 'TRATAMENTO-DE-RISCOS'    

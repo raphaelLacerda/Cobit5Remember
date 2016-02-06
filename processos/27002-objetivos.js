@@ -76,6 +76,10 @@ var processos = [
         grupo: '12-SEGURANÇA-NAS-OPERAÇÕES'
     },
     {
+        nome: 'Registros e Monitoramento',
+        grupo: '12-SEGURANÇA-NAS-OPERAÇÕES'
+    },
+    {
         nome: 'Controle de software Operacional',
         grupo: '12-SEGURANÇA-NAS-OPERAÇÕES'
     },

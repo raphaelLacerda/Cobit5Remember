@@ -68,8 +68,6 @@ function dropzone() {
 
     ondrop: function (event) {
 
-
-        debugger;
       var id = event.relatedTarget.id;
 
       var nomeDaZona = event.target.id;

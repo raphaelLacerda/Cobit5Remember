@@ -1,31 +1,31 @@
 var processos = [
     {
     nome: 'Reconhecer ações necessárias para agir',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Ativos',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Definir Objetivo alvo',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Construir Melhorias',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Implementar Melhorias',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Operar e Medir',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Monitorar e Avaliar',
-    grupo: 'Ciclo de Vida'
+    grupo: 'Ciclo-de-Vida'
 },
 {
     nome: 'Estabelecer desejo por mudança',
@@ -88,7 +88,7 @@ var processos = [
 
 
 var grupos = [{
-        nome: 'Ciclo de Vida'
+        nome: 'Ciclo-de-Vida'
     }, {
         nome: 'Programa'
     }, {

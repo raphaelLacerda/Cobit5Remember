@@ -131,42 +131,6 @@ var processos = [
     nome: 'Plan programme',
     grupo: 'Fase 4'
 },
-{
-    nome: 'Implement improvements',
-    grupo: 'Fase 5'
-},
-{
-    nome: 'Operate and use',
-    grupo: 'Fase 5'
-},
-{
-    nome: 'Execute plan',
-    grupo: 'Fase 5'
-},
-{
-    nome: 'Operate and measure',
-    grupo: 'Fase 6'
-},
-{
-    nome: 'Embeded new approaches',
-    grupo: 'Fase 6'
-},
-{
-    nome: 'Realise benefits',
-    grupo: 'Fase 6'
-},
-{
-    nome: 'Monitor and evaluate',
-    grupo: 'Fase 7'
-},
-{
-    nome: 'Sustain',
-    grupo: 'Fase 7'
-},
-{
-    nome: 'Review Effectiveness',
-    grupo: 'Fase 7'
-},
 ];
 
 
@@ -195,4 +159,4 @@ var grupos = [{
 
 ];
 
-var itensAcima = 3;
+var itensAcima = 2;

@@ -195,4 +195,4 @@ var grupos = [{
 
 ];
 
-var itensAcima = 3;
+var itensAcima = 2;

@@ -85,87 +85,87 @@ var processos = [
 },
 {
     nome: 'Recognise need to act',
-    grupo: 'Fase 1'
+    grupo: 'Fase-1'
 },
 {
     nome: 'Estabilish desire to change',
-    grupo: 'Fase 1'
+    grupo: 'Fase-1'
 },
 {
     nome: 'Initiate programme',
-    grupo: 'Fase 1'
+    grupo: 'Fase-1'
 },
 {
     nome: 'Assess current state',
-    grupo: 'Fase 2'
+    grupo: 'Fase-2'
 },
 {
     nome: 'Form implementation team',
-    grupo: 'Fase 2'
+    grupo: 'Fase-2'
 },
 {
     nome: 'Define problems and opportunities',
-    grupo: 'Fase 2'
+    grupo: 'Fase-2'
 },
 {
     nome: 'Define target state',
-    grupo: 'Fase 3'
+    grupo: 'Fase-3'
 },
 {
     nome: 'Communicate outcome',
-    grupo: 'Fase 3'
+    grupo: 'Fase-3'
 },
 {
     nome: 'Define Roadmap',
-    grupo: 'Fase 3'
+    grupo: 'Fase-3'
 },
 {
     nome: 'Build improvements',
-    grupo: 'Fase 4'
+    grupo: 'Fase-4'
 },
 {
     nome: 'Identify role players',
-    grupo: 'Fase 4'
+    grupo: 'Fase-4'
 },
 {
     nome: 'Plan programme',
-    grupo: 'Fase 4'
+    grupo: 'Fase-4'
 },
 {
     nome: 'Implement improvements',
-    grupo: 'Fase 5'
+    grupo: 'Fase-5'
 },
 {
     nome: 'Operate and use',
-    grupo: 'Fase 5'
+    grupo: 'Fase-5'
 },
 {
     nome: 'Execute plan',
-    grupo: 'Fase 5'
+    grupo: 'Fase-5'
 },
 {
     nome: 'Operate and measure',
-    grupo: 'Fase 6'
+    grupo: 'Fase-6'
 },
 {
     nome: 'Embeded new approaches',
-    grupo: 'Fase 6'
+    grupo: 'Fase-6'
 },
 {
     nome: 'Realise benefits',
-    grupo: 'Fase 6'
+    grupo: 'Fase-6'
 },
 {
     nome: 'Monitor and evaluate',
-    grupo: 'Fase 7'
+    grupo: 'Fase-7'
 },
 {
     nome: 'Sustain',
-    grupo: 'Fase 7'
+    grupo: 'Fase-7'
 },
 {
     nome: 'Review Effectiveness',
-    grupo: 'Fase 7'
+    grupo: 'Fase-7'
 },
 ];
 
@@ -178,19 +178,19 @@ var grupos = [{
     }, {
         nome: 'Programa'
     }, {
-        nome: 'Fase 1'
+        nome: 'Fase-1'
     }, {
-        nome: 'Fase 2'
+        nome: 'Fase-2'
     }, {
-        nome: 'Fase 3'
+        nome: 'Fase-3'
     }, {
-        nome: 'Fase 4'
+        nome: 'Fase-4'
     }, {
-        nome: 'Fase 5'
+        nome: 'Fase-5'
     }, {
-        nome: 'Fase 6'
+        nome: 'Fase-6'
     }, {
-        nome: 'Fase 7'
+        nome: 'Fase-7'
     }
 
 ];

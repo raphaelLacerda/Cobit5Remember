@@ -174,9 +174,9 @@ var processos = [
 var grupos = [{
         nome: 'Ciclo-de-Vida'
     }, {
-        nome: 'Programa'
-    }, {
         nome: 'Mudança'
+    }, {
+        nome: 'Programa'
     }, {
         nome: 'Fase 1'
     }, {

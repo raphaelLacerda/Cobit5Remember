@@ -12,7 +12,15 @@ var processos = [
         grupo: 'Factory-Method'
     },
     {
-        nome: 'Fornecer uma interface para criação de famílias de objetos relacionados ',
+        nome: 'Criando famílias de objetos on the fly com alta flexibilidade',
+        grupo: 'Abstract-Factory'
+    },
+    {
+        nome: 'Fornecer uma interface para criação de famílias de objetos relacionados sem especificar suas classes concretas ',
+        grupo: 'Abstract-Factory'
+    },
+    {
+        nome: 'Em tempo de execução descobre qual classe concreta deve instanciar',
         grupo: 'Abstract-Factory'
     },
     {

@@ -1,4 +1,9 @@
-var processos = [{
+var processos = [
+    {
+        nome: 'Fabrica abstrata constroi prototipos unicos',
+        grupo: 'CRIACAO'
+    },
+    {
         nome: 'Factory Method',
         grupo: 'CRIACAO'
     },
@@ -17,6 +22,18 @@ var processos = [{
     {
         nome: 'Singleton',
         grupo: 'CRIACAO'
+    },
+    {
+        nome: 'Confenderação Brasileira de Desportos Aquaticos',
+        grupo: 'ESTRUTURA'
+    },
+    {
+        nome: 'Federacao Paulista Futebol',
+        grupo: 'ESTRUTURA'
+    },
+    {
+        nome: 'CBDA FPF',
+        grupo: 'ESTRUTURA'
     },
     {
         nome: 'Composite',

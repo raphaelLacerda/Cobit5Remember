@@ -60,7 +60,7 @@ var processos = [
         grupo: 'Facade'
     },
     {
-        nome: 'Fornecer uma interface unificada para um conjunto d einterfaces em um subsistema.',
+        nome: 'Fornecer uma interface unificada para um conjunto de interfaces em um subsistema.',
         grupo: 'Facade'
     },
     {
@@ -68,7 +68,7 @@ var processos = [
         grupo: 'Facade'
     },
     {
-        nome: 'utiliza subsistemas sem adiciona novas funcionalidades',
+        nome: 'utiliza subsistemas sem adicionar novas funcionalidades',
         grupo: 'Facade'
     },
     {

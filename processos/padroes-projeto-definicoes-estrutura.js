@@ -28,6 +28,10 @@ var processos = [
         grupo: 'Adapter'
     },
     {
+        nome: 'Adapta uma interface antiga para uma outra interface',
+        grupo: 'Adapter'
+    },
+    {
         nome: 'Permite que a interface possa variar independente de sua implementação',
         grupo: 'Bridge'
     },
@@ -72,6 +76,14 @@ var processos = [
         grupo: 'Facade'
     },
     {
+        nome: 'cria uma interface completamente nova que é mais simples',
+        grupo: 'Facade'
+    },
+    {
+        nome: 'semelhante ao padrão adapter e mediator (adiciona novas funcionalidades)',
+        grupo: 'Facade'
+    },
+    {
         nome: 'Redirecionando o acesso aos objetos',
         grupo: 'Proxy'
     },
@@ -98,13 +110,14 @@ var grupos = [
         nome: 'Composite',
     },
     {
-        nome: 'Adapter',
-    },
-    {
         nome: 'Bridge',
     },
+
     {
         nome: 'Decorator',
+    },
+    {
+        nome: 'Adapter',
     },
     {
         nome: 'Facade',

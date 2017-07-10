@@ -27,12 +27,12 @@ var processos = [
         nome: 'Identificar, quantificar e priorizar os riscos',
         grupo: 'AVALIAÇÃO-DE-RISCOS-PROCESSO-GERAL'
     },
-    
+
     {
         nome: 'AA-CVC',
         grupo: 'IDENTIFICAÇÃO-DE-RISCOS'
     },
-    
+
     {
         nome: 'Ativos',
         grupo: 'IDENTIFICAÇÃO-DE-RISCOS'
@@ -53,57 +53,57 @@ var processos = [
         nome: 'Identificar CONSEQUÊNCIAS',
         grupo: 'IDENTIFICAÇÃO-DE-RISCOS'
     },
-    
+
     {
         nome: 'QQ-CPN',
-        grupo: 'ESTIMATIVA-DE-RISCOS'
+        grupo: 'ANÁLISE-DE-RISCOS'
     },
-    
-    
+
+
     {
         nome: 'qualitativos sem dados históricos (pequena, média, alta)',
-        grupo: 'ESTIMATIVA-DE-RISCOS'
+        grupo: 'ANÁLISE-DE-RISCOS'
     },
-    
+
     {
         nome: 'quantitativos com dados históricos',
-        grupo: 'ESTIMATIVA-DE-RISCOS'
+        grupo: 'ANÁLISE-DE-RISCOS'
     },
-    
+
     {
         nome: 'lista de incidentes identificados como relevantes, incluindo Consequências',
-        grupo: 'ESTIMATIVA-DE-RISCOS'
+        grupo: 'ANÁLISE-DE-RISCOS'
     },
-    
+
     {
         nome: 'probabilidades',
-        grupo: 'ESTIMATIVA-DE-RISCOS'
+        grupo: 'ANÁLISE-DE-RISCOS'
     },
-    
+
     {
         nome: 'nível --> magnitude de um risco',
-        grupo: 'ESTIMATIVA-DE-RISCOS'
+        grupo: 'ANÁLISE-DE-RISCOS'
     },
-    
-    
+
+
     {
         nome: 'entrada: lista de riscos com níveis de valores e critérios para avaliação',
         grupo: 'AVALIAÇÃO-DE-RISCOS'
     },
-    
-    
+
+
     {
         nome: 'saída: lista de riscos avaliados, ordenados por prioridade',
         grupo: 'AVALIAÇÃO-DE-RISCOS'
     },
-    
-    
+
+
     {
         nome: 'ordenar prioritariamente de acordo com a importência do risco',
         grupo: 'AVALIAÇÃO-DE-RISCOS'
     },
-    
-    
+
+
     {
         nome: 'Reter / Evitar / Transferir / Reduzir',
         grupo: 'TRATAMENTO-DE-RISCOS'
@@ -154,45 +154,45 @@ var processos = [
 
 var grupos = [
     {
-        nome: 'DEFINIÇÃO-CONTEXTO'    
+        nome: 'DEFINIÇÃO-CONTEXTO'
     },
     {
-        nome: 'AVALIAÇÃO-DE-RISCOS-PROCESSO-GERAL'    
+        nome: 'AVALIAÇÃO-DE-RISCOS-PROCESSO-GERAL'
     },
     {
-        nome: 'TRATAMENTO-DE-RISCOS'    
+        nome: 'TRATAMENTO-DE-RISCOS'
     },
     {
-        nome: 'ACEITAÇÃO-DE-RISCOS'    
+        nome: 'ACEITAÇÃO-DE-RISCOS'
     },
     {
-        nome: 'COMUNICAÇÃO-DE-RISCOS'    
+        nome: 'COMUNICAÇÃO-DE-RISCOS'
     },
     {
-        nome: 'MONITORAÇÃO-REVISÃO'    
+        nome: 'MONITORAÇÃO-REVISÃO'
     },
     {
-        nome: 'PLAN'    
+        nome: 'PLAN'
     },
     {
-        nome: 'DO'    
+        nome: 'DO'
     },
     {
-        nome: 'ACT'    
+        nome: 'ACT'
     },
     {
-        nome: 'CHECK'    
+        nome: 'CHECK'
     },
     {
-        nome: 'IDENTIFICAÇÃO-DE-RISCOS'    
+        nome: 'IDENTIFICAÇÃO-DE-RISCOS'
     },
     {
-        nome: 'ESTIMATIVA-DE-RISCOS'    
+        nome: 'ANÁLISE-DE-RISCOS'
     },
     {
-        nome: 'AVALIAÇÃO-DE-RISCOS'    
+        nome: 'AVALIAÇÃO-DE-RISCOS'
     },
-    
+
 ];
 
 

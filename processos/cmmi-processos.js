@@ -83,7 +83,7 @@ var processos = [{
         grupo: 'SUPORTE'
     },
     {
-        nome: 'Inovação e Melhoria Organizacional',
+        nome: 'Inovação e Melhoria Organizacional / Gestão de Desempenho',
         grupo: 'PROCESSO'
     }
 ];

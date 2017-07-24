@@ -83,7 +83,7 @@ var processos = [{
         grupo: 'NÍVEL-5-OTIMIZADO'
     },
     {
-        nome: 'Inovação e Melhoria Organizacional',
+        nome: 'Inovação e Melhoria Organizacional / Gestão de Desempenho',
         grupo: 'NÍVEL-5-OTIMIZADO'
     }
 ];

@@ -53,6 +53,10 @@ var processos = [
         nome: 'Identificar CONSEQUÊNCIAS',
         grupo: 'IDENTIFICAÇÃO-DE-RISCOS'
     },
+    {
+        nome: 'Processo de busca, reconhecimento e descrição dos riscos',
+        grupo: 'IDENTIFICAÇÃO-DE-RISCOS'
+    },
 
     {
         nome: 'QQ-CPN',
@@ -103,6 +107,15 @@ var processos = [
         grupo: 'AVALIAÇÃO-DE-RISCOS'
     },
 
+    {
+        nome: 'comparar os resultados da análise com os critérios básico',
+        grupo: 'AVALIAÇÃO-DE-RISCOS'
+    },
+
+    {
+        nome: 'determinar se o risco e sua magnitude é aceitável ou tolerável',
+        grupo: 'AVALIAÇÃO-DE-RISCOS'
+    },
 
     {
         nome: 'Reter / Evitar / Transferir / Reduzir',
@@ -118,7 +131,7 @@ var processos = [
     },
     {
         nome: 'Monitoramento dos fatores de riscos',
-        grupo: 'MONITORAÇÃO-REVISÃO'
+        grupo: 'MONITORAÇÃO-ANÁLISE-CRÍTICA'
     },
     {
         nome: 'Definição de Contexto',
@@ -169,7 +182,7 @@ var grupos = [
         nome: 'COMUNICAÇÃO-DE-RISCOS'
     },
     {
-        nome: 'MONITORAÇÃO-REVISÃO'
+        nome: 'MONITORAÇÃO-ANÁLISE-CRÍTICA'
     },
     {
         nome: 'PLAN'

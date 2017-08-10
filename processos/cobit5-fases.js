@@ -60,23 +60,23 @@ var processos = [
     grupo: 'Programa'
 },
 {
-    nome: 'Definir Problemas e Oportunidades',
+    nome: 'Definir Problemas e Oportunidades (escopo)',
     grupo: 'Programa'
 },
 {
-    nome: 'Road map',
+    nome: 'Road map (priorizar soluções)',
     grupo: 'Programa'
 },
 {
-    nome: 'Planejar',
+    nome: 'Planejar (estudos de caso)',
     grupo: 'Programa'
 },
 {
-    nome: 'Executar',
+    nome: 'Executar (implementar soluções)',
     grupo: 'Programa'
 },
 {
-    nome: 'Obter Benefícios',
+    nome: 'Obter Benefícios (sustentar)',
     grupo: 'Programa'
 },
 {

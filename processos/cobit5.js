@@ -43,7 +43,36 @@ var processos = [{
 }, {
     nome: 'Ciclo de Vida',
     grupo: 'Dimensoes'
-}, {
+},
+{
+    nome: 'Plano',
+    grupo: 'Dimensoes'
+},
+{
+    nome: 'Desenho',
+    grupo: 'Dimensoes'
+},
+{
+    nome: 'Construção / Aquisição / Implementação',
+    grupo: 'Dimensoes'
+},
+
+{
+    nome: 'Uso Operação',
+    grupo: 'Dimensoes'
+},
+
+{
+    nome: 'Avaliação / Monitoração',
+    grupo: 'Dimensoes'
+},
+
+{
+    nome: 'Atualização / Eliminação',
+    grupo: 'Dimensoes'
+},
+
+ {
     nome: 'Boas Práticas',
     grupo: 'Dimensoes'
 }, {

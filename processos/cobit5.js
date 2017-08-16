@@ -15,32 +15,47 @@ var processos = [{
     grupo: 'Principios'
 }, {
     nome: 'Princípios, políticas e frameworks',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Processos',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Pessoas, Habilitadores, competências',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Estruturas Organizacionais',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Cultura, Ética e Comportamento',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Informação',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Serviços / Infraestrutura / Aplicações',
-    grupo: 'Categorias'
+    grupo: 'Habilitadores'
 }, {
     nome: 'Partes Interessadas',
     grupo: 'Dimensoes'
 }, {
     nome: 'Metas',
     grupo: 'Dimensoes'
-}, {
+}
+, {
+    nome: 'qualidade intrínseca',
+    grupo: 'Dimensoes'
+}
+, {
+    nome: 'qualidade contextual',
+    grupo: 'Dimensoes'
+}
+
+, {
+    nome: 'acesso e segurança',
+    grupo: 'Dimensoes'
+}
+
+, {
     nome: 'Ciclo de Vida',
     grupo: 'Dimensoes'
 },
@@ -105,7 +120,22 @@ var processos = [{
 }, {
     nome: 'assegurar necessidades dos stakeholders',
     grupo: 'Governança'
-}, {
+},
+
+{
+    nome: 'Tomada de decisões',
+    grupo: 'Governança'
+},
+{
+    nome: 'Define a direção na qual a organização deve evoluir',
+    grupo: 'Governança'
+},
+{
+    nome: 'Responsabilidade do Conselho Diretor',
+    grupo: 'Governança'
+},
+
+ {
     nome: 'Planejar',
     grupo: 'Gestão'
 }, {
@@ -117,7 +147,19 @@ var processos = [{
 }, {
     nome: 'Monitorar as atividades',
     grupo: 'Gestão'
-}, {
+},
+
+
+{
+    nome: 'Implementação das decisões tomadas pela alta administração',
+    grupo: 'Gestão'
+},
+{
+    nome: 'Responsabilidade do Corpo Diretivo',
+    grupo: 'Gestão'
+},
+
+ {
     nome: 'Garantir o framework de Governança e sua manutenção',
     grupo: 'Avaliar-Direcionar-Monitorar'
 }, {
@@ -234,7 +276,7 @@ var processos = [{
 var grupos = [{
         nome: 'Principios'
     }, {
-        nome: 'Categorias'
+        nome: 'Habilitadores'
     }, {
         nome: 'Dimensoes'
     }, {

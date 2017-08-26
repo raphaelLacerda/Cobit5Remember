@@ -55,6 +55,10 @@ var processos = [{
         grupo: 'IMPLANTACAO-PROCESSO'
     },
     {
+        nome: 'coordenar os testes e/ou piloto da solução',
+        grupo: 'IMPLANTACAO-PROCESSO'
+    },
+    {
         nome: 'monitoria e controle da execução de instâncias de processo',
         grupo: 'IMPLANTACAO-PROCESSO'
     },
@@ -79,7 +83,11 @@ var processos = [{
         grupo: 'CONTROLE-ANALISE'
     },
     {
-        nome: 'Rekatórios gerencias e dados para a estratégia',
+        nome: 'Relatórios gerencias e dados para a estratégia',
+        grupo: 'CONTROLE-ANALISE'
+    },
+    {
+        nome: 'Desempenho dos processos ao longo do tempo',
         grupo: 'CONTROLE-ANALISE'
     },
 ];

@@ -334,4 +334,4 @@ var grupos = [
   },
 ];
 
-var itensAcima = 4;
+var itensAcima = 6;

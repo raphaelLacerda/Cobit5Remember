@@ -66,13 +66,11 @@ function mapearProcessos() {
   imprimirGrupos(indicesJaAdicionados, itensAcima);
 
   $.each(processosTemp, function (index, p) {
-    $('#main').append(
-      '<div id=' +
-        p.id +
-        " class = 'draggable drag-drop' >" +
-        p.nome +
-        ' </div>'
-    );
+    let $div = $('<div>')
+      .attr('id', p.id)
+      .addClass('draggable drag-drop')
+      .html(p.nome);
+    $('#main').append($div);
     // $('#'+p.id).attr('json', JSON.stringify(p));
   });
 
@@ -93,13 +91,18 @@ function imprimirGrupos(indicesJaAdicionados, maximo) {
 
   $.each(grupos, function (index, grupo) {
     if (!_.contains(indicesJaAdicionados, index)) {
-      $('#main').append(
-        "<div class='col-4-12'><div id=" +
-          grupo.nome +
-          " class = 'dropzone' >" +
-          grupo.nome +
-          ' </div></div>'
-      );
+      let $div = $('<div>')
+        .addClass('dropzone col-5-12 mr')
+        .attr('id', grupo.nome)
+        .html(grupo.nome);
+      $('#main').append($div);
+      // $('#main').append(
+      //   "<div class='col-4-12'><div id=" +
+      //     grupo.nome +
+      //     " class = 'dropzone' >" +
+      //     grupo.nome +
+      //     ' </div></div>'
+      // );
       indicesJaAdicionados.push(index);
       total++;
 

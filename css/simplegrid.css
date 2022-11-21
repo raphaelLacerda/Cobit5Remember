@@ -6,6 +6,11 @@
   Site - dallasbass.com
 */
 
+.mr {
+	margin-right: 20px;
+}
+        
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

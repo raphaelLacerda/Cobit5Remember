@@ -68,19 +68,19 @@ var processos = [
     grupo: 'PLANEJAMENTO',
   },
   {
-    nome: 'ALTA-DIRETACAO-Papéis, responsabilidades e autoridades organizacionais',
+    nome: 'ALTA-DIRECAO-Papéis, responsabilidades e autoridades organizacionais',
     grupo: 'LIDERANCA',
   },
   {
-    nome: 'ALTA-DIRETACAO-Definir uma Política de Continuidade de Negócios',
+    nome: 'ALTA-DIRECAO-Definir uma Política de Continuidade de Negócios',
     grupo: 'LIDERANCA',
   },
   {
-    nome: 'ALTA-DIRETACAO-Comprometimento da Direção',
+    nome: 'ALTA-DIRECAO-Comprometimento da Direção',
     grupo: 'LIDERANCA',
   },
   {
-    nome: 'ALTA-DIRETACAO-Liderança e comprometimento',
+    nome: 'ALTA-DIRECAO-Liderança e comprometimento',
     grupo: 'LIDERANCA',
   },
   {
